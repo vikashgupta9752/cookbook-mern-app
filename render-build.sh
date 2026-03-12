@@ -1,4 +1,7 @@
 #!/bin/bash
+# Exit on error
+set -e
+
 echo "Building Cookbook App for Render..."
 
 # 1. Install root dependencies (concurrently, etc if needed)
